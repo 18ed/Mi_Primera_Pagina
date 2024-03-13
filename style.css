@@ -37,4 +37,40 @@ img{
 
 li{
     width: 30;
+
+
+
+
+
+
+
+
 }
+
+.navbar{
+    background-color: black;
+    padding: 16px 20px;
+}
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__nav__icon {
+    width: 40px;
+}
+.navbar__nav__list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #a31f1f;
+    transition: background 1s  ease-in;
+}
+.button:hover{
+    background-color: #510707;
+}
+
