@@ -37,39 +37,67 @@ img{
 
 li{
     width: 30;
-
-
-
-
-
-
-
-
+}
+.button {
+    padding: 15px 30px;
+    border-radius: 10px;
 }
 
-.navbar{
+.navbar {
     background-color: black;
     padding: 16px 20px;
-
 }
+
 .navbar__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-        
 }
+
+.navbar__nav__icon {
+    width: 52px;
+    height: 52px;
+}
+
 .navbar__nav__list {
-    
+
     display: flex;
     gap: 25px;
     flex-direction: row;
     justify-content: center;
 }
-.navbar__nav__icon{
-    width: 30px;
-    height: 30px;
+
+.navbar__nav__list  {
+    width: max-content;
 }
+
+.jumbotron {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jumbotron__background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    filter: brightness(.4);
+}
+
+
+
+
+
+
+
+
+
 
 
 
